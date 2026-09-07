@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap+Sharp:ital,wght@0,100..900;1,100..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Manrope:wght@200..800&family=Quicksand:wght@300..700&family=Roboto+Flex:opsz,wght,XOPQ,XTRA,YOPQ,YTDE,YTFI,YTLC,YTUC@8..144,100..1000,96,468,79,-203,738,514,712&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #F9FAFC;
+}
+
+.header_parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: white;
+
+}
+
+.header-img {
+    position: relative;
+    left: 6rem;
+}
+
+.nav {
+    display: flex;
+    gap: 3rem;
+    justify-content: space-between;
+    list-style-type: none;
+
+}
+
+.nav li a {
+    text-decoration: none;
+    color: hsl(0, 0%, 60%);
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    display: inline-block;
+    transition: 0.2s all;
+}
+
+.nav li a:hover {
+    color: rgba(0, 0, 0, 0.789);
+    transform: translateY(-4px);
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    position: relative;
+    right: 6rem;
+    background-color: #B8C2CE;
+    border-radius: 5px;
+    padding: 0.7rem 1.3rem;
+    gap: 0.5rem;
+    transition: 0.2s;
+
+}
+
+.search:hover {
+    background-color: #899099;
+
+}
+
+.search p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    color: white;
+}
+
+.search p {
+    cursor: pointer;
+}
+
+.hero-parent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.background img {
+    filter: grayscale(100%);
+}
+
+.background h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    width: 90%;
+    background: linear-gradient(to bottom, #000, #888);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    bottom: 29rem;
+    left: 9rem;
+    font-size: 5rem;
+}
+
+.center-hero img {
+    position: relative;
+    right: 17rem;
+    top: 2rem;
+}
+
+.texts-hero p:first-child {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 50%;
+    position: relative;
+    top: -6rem;
+    line-height: 1.5;
+}
+
+.texts-hero p:last-child {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    width: 35%;
+    position: relative;
+    top: -4rem;
+    border-radius: 5px;
+    padding: 1rem 1.3rem;
+    background-color: #000;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.texts-hero p:last-child:hover {
+    cursor: pointer;
+}
+
+.right-hero {
+    position: relative;
+    right: 13.7rem;
+    top: 3rem;
+}
+
+.today {
+    background-color: #E1E8F0;
+    color: #B8C2CE;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 30%;
+    padding: 0.5rem 1.3rem;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+}
+
+.race p {
+    position: relative;
+    top: -4.5rem;
+    left: 1rem;
+    width: 70%;
+
+}
+
+.race .heading {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #262626a2;
+    font-size: 12px;
+    padding-bottom: 3px;
+}
+
+.race p:last-child {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+.race img{
+
+    mask-image: linear-gradient(
+        to bottom,
+        black 0%,
+        black 50%,
+        transparent 100%
+    );
+    
+}
+
+.race-cars{
+    position: relative;
+    top: -2rem;
+}
+
+.race-cars p {
+    position: relative;
+    top: -4.5rem;
+    left: 1rem;
+    width: 90%;
+
+}
+
+.race-cars .heading {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #262626a2;
+    font-size: 12px;
+    padding-bottom: 3px;
+}
+
+.race-cars p:last-child {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+.race-cars img{
+
+    mask-image: linear-gradient(
+        to bottom,
+        black 0%,
+        black 50%,
+        transparent 100%
+    );
+    
+}
