@@ -486,11 +486,11 @@ body {
         width: 100%;
     }
 
-    .race{
+    .race {
         margin-bottom: 1rem;
     }
 
-    .race-cars{
+    .race-cars {
         margin-bottom: 10.5rem;
     }
 
@@ -507,6 +507,39 @@ body {
         height: auto;
     }
 
-    
+    /* ================= CATEGORIES ================= */
+
+    .category-parent{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .category-child:first-child{
+        position: relative;
+        left: -2rem;
+        margin-inline: 3rem;
+        margin-bottom: 2rem;
+    }
+
+    .category-child:nth-child(2){
+        position: relative;
+        left: -2rem;
+        margin-inline: 3rem;
+        margin-bottom: 2rem;
+    }
+
+    .category-child:nth-child(3){
+        position: relative;
+        left: -2rem;
+        margin-inline: 3rem;
+        margin-bottom: 2rem;
+    }
+
+    #basket{
+        width: 100%;
+    }
+
+
 
 }
