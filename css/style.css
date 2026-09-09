@@ -243,6 +243,91 @@ body {
 
 }
 
+.category-parent {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-inline: 2rem;
+    position: relative;
+    top: -10rem;
+    flex-wrap: wrap;
+}
+
+#category h2 {
+    position: relative;
+    top: -12rem;
+    left: 7rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 540;
+    font-style: normal;
+    font-size: 2rem;
+    width: 50%;
+}
+
+
+.category-child h3 {
+    background: linear-gradient(to bottom, #000, #888);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 2rem;
+}
+
+.text-cate {
+    background-color: #EBEEF3;
+    padding: 2rem;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.category-child:nth-child(2) {
+    position: relative;
+    left: 3.5rem;
+}
+
+.category-child:nth-child(3) {
+    position: relative;
+    right: 0.5rem;
+}
+
+.category-child:first-child {
+    position: relative;
+    left: 3rem;
+}
+
+.text-cate:last-child {
+    width: 83%;
+}
+
+
+#basket {
+    width: 80%;
+}
+
+
+.ping-pong {
+    border-radius: 5px;
+
+    width: 270px;
+    height: 240px;
+    object-fit: fill;
+
+}
+
+.category-child:first-child img,
+.category-child:nth-child(3) img {
+    margin-top: 2rem;
+}
+
+.category-child:last-child img,
+.category-child:nth-child(2) img {
+    margin-bottom: 2rem;
+}
+
+
 @media (max-width: 768px) {
 
     html,
@@ -261,7 +346,7 @@ body {
         align-items: center;
         justify-content: space-between;
         flex-wrap: nowrap;
-        
+
     }
 
     .header-img {
