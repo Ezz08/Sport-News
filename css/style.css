@@ -454,6 +454,100 @@ hr {
     font-size: 2rem;
 }
 
+.football-parent {
+    background-color: #EBEEF3;
+    padding-bottom: 2rem;
+    margin-inline: 7.5rem;
+    margin-top: 7.5rem;
+    margin-bottom: 7.5rem;
+}
+
+.football-image {
+    width: 100%;
+}
+
+.football-main-image {
+    position: relative;
+    margin-bottom: 2rem;
+    overflow: hidden;
+    border-radius: 5px;
+    min-height: 450px;
+}
+
+.football-main-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.football-main-image::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+}
+
+.football-texts {
+    color: white;
+    z-index: 22;
+    position: absolute;
+    bottom: 1.5rem;
+    left: 3.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+
+.football-texts h4 {
+    border: 2px solid white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    position: relative;
+    top: -15rem;
+    width: fit-content;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    margin: 0;
+}
+
+.football-texts h3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    margin: 0;
+    position: relative;
+    top: -5rem;
+}
+
+.messi {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    margin: 0;
+    font-size: 3rem;
+    width: 80%;
+    position: relative;
+    top: -4rem;
+}
+
+.p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    margin: 0;
+    position: relative;
+    top: -2rem;
+}
+
+.football-badge {
+    position: relative;
+    right: -48.5rem;
+    z-index: 2;
+    width: 470px;
+    height: auto;
+}
+
+
 
 @media (max-width: 768px) {
 
