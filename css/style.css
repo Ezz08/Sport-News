@@ -616,6 +616,47 @@ hr {
     top: 2rem;
 }
 
+.two-sections{
+    display: flex;
+}
+
+.league-table th,
+.league-table td {
+    padding: 0.6rem 1rem;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 540;
+}
+
+.clubs-ranking_parent{
+    position: relative;
+    left: -5rem;
+}
+
+
+.clubs-ranking_parent h2{
+    margin-bottom: 2rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 540;
+    font-size: 2rem;
+}
+
+.league-table{
+    background-color: #EBEEF3;
+}
+
+
+.club {
+    display: inline-block;
+}
+
+tr:nth-child(2) .club,
+tr:nth-child(3) .club,
+tr:nth-child(5) .club {
+    position: relative;
+    left: -1px;
+}
+
 
 
 @media (max-width: 768px) {
