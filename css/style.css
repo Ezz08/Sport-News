@@ -659,6 +659,98 @@ tr:nth-child(5) .club {
     left: -1px;
 }
 
+.card-parent{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 7.5rem;
+    margin-inline: 2rem;
+    
+}
+
+.heading {
+    margin-bottom: 2rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 540;
+    font-size: 2rem;
+    margin-left: 7.4rem;
+    
+}
+
+.card-child:first-child{
+    position: relative;
+    left: 5.5rem;
+}
+
+.card-child:nth-child(2){
+    position: relative;
+    left: 2rem;
+}
+
+.card-child:last-child{
+    position: relative;
+    left: 4.5rem;
+}
+
+.big-photo{
+    position: relative;
+}
+
+.big-photo img{
+    margin-bottom: 2rem;
+}
+
+.big-photo h4{
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    position: absolute;
+    top: 2rem;
+    padding: 0.5rem 1rem;
+    left: 15rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    width: fit-content;
+}
+
+.card-child:nth-child(2) .big-photo h4 {
+    left: 16.5rem;
+}
+
+.client{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.client h4{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+.texts-card h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 640;
+    width: 80%;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+.texts-card p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 540;
+    font-size: 15px;
+    width: 70%;
+}
+
+.texts-card h3{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #262626a2;
+    font-size: 12px;
+    margin-bottom: 1rem;
+}
+
 
 
 @media (max-width: 768px) {
