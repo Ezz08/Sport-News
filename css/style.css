@@ -13,6 +13,7 @@ html {
 
 body {
     background-color: #F9FAFC;
+    overflow-x: hidden;
 }
 
 .header_parent {
@@ -1188,6 +1189,44 @@ tr:nth-child(5) .club {
     .club img {
         width: 25px;
         height: 25px;
+    }
+
+    .card-parent {
+        flex-direction: column;
+        margin-inline: 1rem;
+        gap: 3rem;
+        margin-bottom: 13rem;
+    }
+
+    .heading {
+        margin-left: 1rem;
+        font-size: 1.6rem;
+    }
+
+    .card-child:first-child,
+    .card-child:nth-child(2),
+    .card-child:last-child {
+        left: 0;
+    }
+
+    .big-photo img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 2rem;
+    }
+
+    .big-photo h4 {
+        left: 1rem;
+        top: 1rem;
+    }
+
+    .card-child:nth-child(2) .big-photo h4 {
+        left: 1rem;
+    }
+
+    .texts-card h2,
+    .texts-card p {
+        width: 100%;
     }
 
     
