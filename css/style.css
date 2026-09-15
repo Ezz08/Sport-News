@@ -752,6 +752,69 @@ tr:nth-child(5) .club {
     margin-bottom: 1rem;
 }
 
+.newsletter{
+    display: flex;
+    justify-content: space-between;
+    background-color: #EBEEF3;
+    margin-inline: 7.5rem;
+    margin-bottom: 9rem;
+    align-items: center;
+}
+
+.left-sec{
+    position: relative;
+    left: 4rem;
+}
+
+.left-sec h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    width: 90%;
+    background: linear-gradient(to bottom, #000, #888);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 1;
+    font-size: 5rem;
+    margin-bottom: 3rem;
+}
+
+form {
+    position: relative;
+    width: fit-content;
+}
+
+form input {
+    padding: 1rem 5rem 1rem 1rem;
+    width: 30rem;
+    background-color: #EBEEF3;
+    border: 1px solid;
+}
+
+.img-o {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 4rem;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-o img {
+    width: 1.5rem;
+}
+
+.parent-footer{
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 7.5rem;
+    margin-bottom: 2rem;
+}
+
 
 
 @media (max-width: 768px) {
@@ -1227,6 +1290,58 @@ tr:nth-child(5) .club {
     .texts-card h2,
     .texts-card p {
         width: 100%;
+    }
+
+    .newsletter {
+        flex-direction: column;
+        margin-inline: 1rem;
+        margin-bottom: 4rem;
+        padding: 2rem 1rem;
+        text-align: center;
+    }
+
+    .left-sec {
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left-sec h2 {
+        width: 100%;
+        font-size: 2.2rem;
+        margin-bottom: 1.5rem;
+        text-align: center;
+    }
+
+    form {
+        width: 100%;
+        max-width: 25rem;
+    }
+
+    form input {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .right-sec img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        margin-top: 1.5rem;
+    }
+
+    .parent-footer {
+        flex-direction: column;
+        align-items: center;
+        margin-inline: 1rem;
+        gap: 1.5rem;
+        margin-bottom: 4rem;
+    }
+
+    .child-footer img {
+        max-width: 100%;
+        height: auto;
     }
 
     
